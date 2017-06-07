@@ -1,0 +1,27 @@
+.non3-logo{
+    height:50px;
+    width:50px;
+    float:left;
+    padding:10px;
+    border-right:white 1px solid;
+}
+.main-nav{
+    color:purple;
+    height:70px;
+    width:100%;
+    position:fixed;
+    top:0px;
+}
+.nav-list-parent{
+    float:right;
+}
+.nav-list{
+    float:left;
+    color:white;
+    padding-right:20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size:30px;
+    top:31.25px;
+    min-width:75px;
+    
+}

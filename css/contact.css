@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+/** removes margin**/
+body{
+    margin:0px;
+}
+/** Begin Nav Styles**/
+.non3-logo{
+    height:50px;
+    width:50px;
+    float:left;
+    padding:10px;
+    border-right:white 1px solid;
+}
+.main-nav{
+     background-color:#ade1ef;
+     height:70px;
+     width:100%;
+     position:fixed;
+     top:0px;
+     overflow:hidden;
+}
+.nav-list{
+    float:left;
+    margin:15px;
+    color:white;
+    list-style:none;
+    text-decoration:none;
+    padding-right: 20px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.nav-list a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
+.nav-list a:link{
+    color:white;
+    text-decoration:none;
+}
+.nav-list-parent{
+    float:right;
+    color:white;
+}
+.about{
+    color:black;
+    text-decoration:none;
+    font-family: 'Orbitron', sans-serif;
+    height:1000px;
+    margin-top: 80px;
+}
+.contact{
+    color:black;
+    text-decoration:none;
+    font-family: 'Orbitron', sans-serif;
+    height:1000px;
+}
+.spacer-one{
+    color:white;
+    font-size:70px;
+}
+.spacer-two{
+    color:white;
+    font-size:70px;
+}
+/** End Nav Styles**/
+/** start contact styles **/
+.info-container::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.my-info-right{
+    height:150px;
+    width:49%;
+    border: 1px solid black;
+    
+    float:left;
+}
+.my-info-left{
+    height:150px;
+    width:49%;
+    margin-left:11px;
+    border: 1px solid black;
+    float:left;
+}
+/** end contact styles **/
+.form-container{
+    width:50%;
+    margin:0 auto;
+    padding:25px 0px;
+    margin-top:70px;
+}
+/** Start Footer Styles **/
+footer{
+   height:150px; 
+   border-top:1px solid #707070;
+   margin-top:0px;
+}
+.footer-section{
+    height:100%;
+    width:33%;
+    border:1px solid #000;
+    float:left;
+    background-color:white;
+}
+.logo{
+    height:100px;
+    margin:0 auto;
+}
+.social-media {
+  height: 100%;
+  width: 150px;
+  margin:0 auto;
+}
+
+.section {
+  height: 50px;
+}
+
+.icon i.fa{
+  height: 100%;
+  width: 50px;
+  text-align:center;
+  margin-left: calc(100%/3);
+  color:#0084b4
+}
+
+.icon.left i.fa{
+  float: left;
+  margin-left: 0px;
+  color:#3b5998;
+}
+
+.icon.right i.fa{
+  float: right;
+  margin-left: 0px;
+  color: #6441a5;
+}
+.icon i.fa{
+    font-size:25px;
+    margin-top:12.5px;
+    color: #fffc00;
+}
+.copyright{
+    font-family: 'Noto Sans', sans-serif;
+    margin:45.995px auto;
+    text-align:center;
+    width:50%;
+}
+/** End Footer Styles**/

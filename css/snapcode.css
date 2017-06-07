@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+/** removes margin**/
+body{
+    margin:0px;
+}
+/** Begin Nav Styles**/
+.non3-logo{
+    height:50px;
+    width:50px;
+    float:left;
+    padding:10px;
+    border-right:white 1px solid;
+}
+.main-nav{
+     background-color:#ade1ef;
+     height:70px;
+     width:100%;
+     position:fixed;
+     top:0px;
+     overflow:hidden;
+}
+.nav-list{
+    float:left;
+    margin:15px;
+    color:white;
+    list-style:none;
+    text-decoration:none;
+    padding-right: 20px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.nav-list a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
+.nav-list a:link{
+    color:white;
+    text-decoration:none;
+}
+.nav-list-parent{
+    float:right;
+    color:white;
+}
+.about{
+    color:black;
+    text-decoration:none;
+    font-family: 'Orbitron', sans-serif;
+    height:1000px;
+    margin-top: 80px;
+}
+.contact{
+    color:black;
+    text-decoration:none;
+    font-family: 'Orbitron', sans-serif;
+    height:1000px;
+}
+.spacer-one{
+    color:white;
+    font-size:70px;
+}
+.spacer-two{
+    color:white;
+    font-size:70px;
+}
+/** End Nav Styles**/
+.snap-code{
+    height:200px;
+    width:200px;
+    position:absolute;
+    top:80px;
+}
